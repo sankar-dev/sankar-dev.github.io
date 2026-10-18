@@ -371,6 +371,20 @@ a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 .project details li { position: relative; padding-left: 16px; font-size: 14px; color: var(--text-muted); line-height: 1.5; }
 .project details li::before { content: ""; position: absolute; left: 2px; top: 9px; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
 
+.project-featured { grid-column: 1 / -1; flex-direction: row; }
+.project-featured .project-media { aspect-ratio: auto; width: 34%; flex: none; border-bottom: 0; border-right: 1px solid var(--border); }
+.project-media-icon {
+	display: grid; place-items: center; color: #fff;
+	background: linear-gradient(135deg, var(--accent), var(--accent-2));
+}
+.project-media-icon svg { width: 72px; height: 72px; opacity: .95; }
+.project-featured .project-body { padding: 28px; }
+.project-featured .tag-current { margin: 0 0 10px; align-self: flex-start; }
+.project-featured h3 { font-size: 1.3rem; }
+.project-featured .project-body > p { font-size: 15.5px; max-width: 620px; }
+
+.role-step .role-note { flex-basis: 100%; margin: 6px 0 0; font-size: 14px; color: var(--text-muted); }
+
 /* ---------- Education ---------- */
 
 .edu-card {
@@ -460,6 +474,9 @@ a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 	.role-card { padding: 18px; }
 	.cert-feature { padding: 22px; }
 	.cert-badge { width: 110px; height: 110px; }
+	.project-featured { flex-direction: column; }
+	.project-featured .project-media { width: 100%; aspect-ratio: 16 / 7; border-right: 0; border-bottom: 1px solid var(--border); }
+	.project-featured .project-body { padding: 20px; }
 	.contact-card { padding: 44px 20px; }
 	.btn { width: 100%; justify-content: center; }
 	.hero-cta { flex-direction: column; }
