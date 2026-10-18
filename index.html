@@ -1,1047 +1,486 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Sankara Narayanan - Full Stack Developer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+	<title>Sankara Narayanan Paramasivam — Cloud Architect &amp; Full Stack Developer</title>
+	<meta name="description" content="Google Cloud certified Professional Cloud Architect and full stack developer with 12+ years of experience across Node.js, React, Angular, SQL and cloud-native architecture.">
+	<meta name="author" content="Sankara Narayanan Paramasivam">
+	<meta name="theme-color" content="#0a0e17" media="(prefers-color-scheme: dark)">
+	<meta name="theme-color" content="#f7f8fb" media="(prefers-color-scheme: light)">
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Sankara Narayanan Paramasivam — Cloud Architect & Full Stack Developer">
+	<meta property="og:description" content="Google Cloud certified Professional Cloud Architect · Full Stack Developer · Node.js · React · Angular · SQL">
+	<meta property="og:url" content="https://sankar-dev.github.io/">
+	<meta property="og:image" content="https://sankar-dev.github.io/images/sankar.png">
+	<meta name="twitter:card" content="summary">
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232563eb'/%3E%3Cstop offset='1' stop-color='%230891b2'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Ctext x='16' y='21' font-family='Arial' font-weight='700' font-size='13' fill='white' text-anchor='middle'%3ESN%3C/text%3E%3C/svg%3E">
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons 
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css"> -->
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/site.css">
 
-	<!-- Modernizr JS 
-	<script src="js/modernizr-2.6.2.min.js"></script>-->
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+	<script>
+		// Apply saved theme before paint to avoid a flash
+		try { var t = localStorage.getItem('theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+	</script>
+</head>
+<body>
+	<a class="skip-link" href="#main">Skip to content</a>
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/sankar.png);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Sankara Narayanan</a></h1>
-				<span class="position"><a href="#">Full Stack Developer</a> in Chennai</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
-				</div>
+	<!-- Navigation -->
+	<header class="nav">
+		<div class="container nav-inner">
+			<a class="brand" href="#top" aria-label="Sankara Narayanan — home">
+				<span class="brand-mark">SN</span>
+				<span>Sankara Narayanan</span>
+			</a>
+			<nav class="nav-links" id="nav-links" aria-label="Primary">
+				<a href="#about">About</a>
+				<a href="#skills">Skills</a>
+				<a href="#certifications">Certifications</a>
+				<a href="#experience">Experience</a>
+				<a href="#projects">Projects</a>
+				<a href="#contact">Contact</a>
 			</nav>
-
-			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright Sankar &copy;<script>document.write(new Date().getFullYear());</script> <br> All rights reserved <!-- | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.  </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small>--> </p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
+			<div class="nav-actions">
+				<button class="icon-btn theme-toggle" type="button" aria-label="Toggle dark mode">
+					<svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+					<svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+				</button>
+				<button class="icon-btn menu-toggle" type="button" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false">
+					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+				</button>
 			</div>
+		</div>
+	</header>
 
-		</aside>
+	<main id="main">
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/fullstack1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Sankar</h1>
-												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/fullstack2.gif); left: 10%;">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc" style="margin-top: 234px;">
-						   					<h1>I am <br>a Full Stack Developer</h1>
-												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
-
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">About Me</span>
-										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p>Hello! I am Sankar. Web Developer living in Chennai. I spend my days with my hands in many different areas of web development from back-end programming (<b>ExpressJS, NodeJS, PHP, WordPress, MySQL, Cassandra, MongoDB</b>) to front-end engineering (<b>Angular, jQuery, Javascript, HTML and CSS</b>).</p>
-            							<p>I’m extremely passionate about <b>Web Development</b> and <b>Windows Application</b> Development using ElectronJS(NodeJS) and Angular.</p>
-            							<p> I have experience in developing <b>RESTful Web Services</b> in Express Cassandra and MongoDB. And having strong knowledge in Angular application development.</p>
-			      						<p>I also have experience in AWS (EC2 instance creation, RDS, S3 bucket). Having strong knowledge of Amazon Web Services, LAMP, WAMP architecture. Managing and spinning up instance cost-effectively as per the project requirement.</p>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Web App Development</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Windows App Development</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>REST API Development</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Freelance Services <br>    &nbsp;</h3>
-									</div>
-								</div>
-							</div>
-							<!-- <div class="row">
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<div class="hire">
-										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
-										<a href="#" class="btn-hire">Hire me</a>
-									</div>
-								</div>
-							</div> -->
+		<!-- Hero -->
+		<section class="hero" id="top">
+			<div class="container">
+				<div class="hero-grid">
+					<div>
+						<span class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Google Cloud Certified · Professional Cloud Architect</span>
+						<h1>Hi, I'm Sankar.<br><span class="grad">I architect and build for the cloud.</span></h1>
+						<p class="hero-lead">Cloud Architect and Full Stack Developer with 12+ years of experience designing scalable, secure web platforms — from Node.js and React/Angular front-to-back, to cloud-native systems on Google Cloud.</p>
+						<div class="hero-cta">
+							<a class="btn btn-primary" href="#contact">
+								Get in touch
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+							</a>
+							<a class="btn btn-ghost" href="https://www.linkedin.com/in/sankara-narayanan-paramasivam-00a00a11a/" target="_blank" rel="noopener">
+								<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+								LinkedIn
+							</a>
+						</div>
+						<div class="hero-meta">
+							<span>
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+								Louisville, Kentucky, USA
+							</span>
+							<span>
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+								System Analyst @ Aspire Systems
+							</span>
+						</div>
+					</div>
+					<div class="portrait">
+						<img src="images/sankar.png" alt="Portrait of Sankara Narayanan Paramasivam" width="286" height="283">
+						<div class="portrait-badge">
+							<svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="#EA4335" d="M15.5 7.3l1.3-1.3.1-.6A8.9 8.9 0 0 0 3.1 9.7l.4-.1 2.6-.4.2-.2a5.4 5.4 0 0 1 7.4-1.7z"/><path fill="#4285F4" d="M20.8 9.7a8.9 8.9 0 0 0-2.7-4.3l-2.6 2.6a4.7 4.7 0 0 1 1.7 3.7v.5a2.3 2.3 0 1 1 0 4.7h-4.7l-.5.5v2.8l.5.5h4.7a6 6 0 0 0 3.6-11z"/><path fill="#34A853" d="M7.4 21h4.7v-3.8H7.4a2.3 2.3 0 0 1-1-.2l-.6.2-1.9 1.9-.2.6A6 6 0 0 0 7.4 21z"/><path fill="#FBBC05" d="M7.4 8.9a6 6 0 0 0-3.7 10.8l2.7-2.7a2.3 2.3 0 1 1 3.1-3.1L12.2 11a6 6 0 0 0-4.8-2.1z"/></svg>
+							<div><strong>Cloud Architect</strong><small>Google Cloud · 2026</small></div>
 						</div>
 					</div>
 				</div>
-			</section>
 
-
-			
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<img src="images/angular.png" alt="Image" height="60" width="60"/>
-								</span>
-								<div class="desc">
-									<h3>Angular Application Development</h3>
-									<p>Expert in Angular (SPA) development. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<img src="images/node.png" alt="Image" height="60" width="60"/>
-								</span>
-								<div class="desc">
-									<h3>NodeJS Development</h3>
-									<p>Having excellent experience with NodeJS and NPM.</p><br>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<img src="images/express.png" alt="Image" height="60" width="60"/>
-								</span>
-								<div class="desc">
-									<h3>Express REST API</h3>
-									<p>Expert in REST API development with popular databases like MySQL, MongoDB, Cassandra.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-0">
-								<span class="icon">
-									<img src="images/electron.png" alt="Image" height="60" width="60"/>
-								</span>
-								<div class="desc">
-									<h3>Windows App Development</h3>
-									<p>Having excellent experience in Windows Application Development using ElectronJS framework.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<img src="images/wordpress.png" alt="Image" height="60" width="60"/>
-								</span>
-								<div class="desc">
-									<h3>WordPress Plugins & Themes Development</h3>
-									<p>Expert in WordPress plugins and themes development</p><br>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<img src="images/php.png" alt="Image" height="60" width="60"/>
-								</span>
-								<div class="desc">
-									<h3>PHP Development</h3>
-									<p>Expert in PHP programming. Having excellent experience with PHP frameworks</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<!-- <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="356" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Projects</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="30" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Clients</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Partners</span>
-						</div>
-					</div>
-				</div>
-			</div> -->
-
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
-						</div>
-					</div>
-					<div class="row">
-						<!-- <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-						</div> -->
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Angular</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="95"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-								    <span>95%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>NodeJS</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Express</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>WordPress</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="95"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-								    <span>95%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Electron</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>MySQL</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Cassandra</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="50"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								    <span>50%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>MongoDB</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Amazon Web Services</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Docker</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="50"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
-								    <span>50%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Bootstrap</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>HTML & CSS</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>PHP</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="95"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-								    <span>95%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Javascript</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>jQuery</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>TypeScript</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Swagger API Documentation</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Gulp</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="40"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:40%">
-								    <span>40%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
-							<h2 class="colorlib-heading animate-box">Education</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">B.Tech Information Technology
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-															<p>Anjalai Ammal Mahalingam Engineering College, Thanjavur.</p>	
-														
-										      		</div>
-										      		<div class="col-md-6">
-															<p>Anna University (2007 - 2011)</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-					
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingThree">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">10th & 12th Standard
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-									        <div class="panel-body">
-												<div class="col-md-6">
-													<p>Devangar Hr Sec School, Aruppukottai </p>	
-												</div>
-												<div class="col-md-6">
-														<p>Tamilnadu State Board (2005 - 2007)</p>
-												  </div>
-									        </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="#">Senior. Program Analyst</a> <span>SEP 2017 - Present</span></h2>
-					                  	<p>ExcelaCom Technologies Private Limited</p>
-										<p>SEP 2017 - Present</p>
-										<p>5/D5, IT Park, Sipcot, Siruseri, Chennai, 603103</p>
-										<p>Phone: 044 4743 3000</p>
-					               </div>
-					            </div>
-					         </article>
-
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Software Developer</a> <span>SEP 2015 - SEP 2017</span></h2>
-									   <p>HTC Towers, No.41, GST Road,
-											Level 4 & 5, Guindy,
-											Chennai : 600 032, India.
-										</p>	
-										<p>Phone : +91 (44) 7100-1700</p>
-										<p>Email: info@encoress.com</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Freelance Web Developer</a> <span>Jan 2014 to Aug 2015</span></h2>
-					                  <p>Freelance Web Development for clients from chennai.</p>
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<!-- <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div> -->
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/servicenow.png);">
-								<div class="desc">
-									<div class="con">
-										<center style="margin-top: 60px;">
-											<h3><font color="white">ServiceNow Dashboard Application</font><br> <small><font color="white">Angular 8 & Express REST API</font></small></h3>
-											<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#servicenow">More Info</button>
-										</center>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/admin-dashboard.jpg);">
-								<div class="desc">
-									<div class="con">
-										<center style="margin-top: 60px;">
-											<h3><font color="white">Admin Dashboard in Angular</font> <br> <small><font color="white">Angular 8</font></small></h3>
-											<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#admin_dashboard">More Info</button>
-										</center>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/desktop.jpg);">
-								<div class="desc">
-									<div class="con">
-										<center style="margin-top: 60px;">
-											<h3><font color="white">sKiosk App</font> <br> <small><font color="white">Desktop Application for Windows using Electron</font></small></h3>
-											<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#skiosk">More Info</button>
-										</center>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/skoollive_logo.jpg);">
-								<div class="desc">
-									<div class="con">
-										<center style="margin-top: 60px;">
-											<h3><font color="white">School Content Managment Portal - WordPress</font> <br> <small><font color="white">WordPress multisite plugin for School content management Work Flow</font></small></h3>
-											<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#skoollive">More Info</button>
-										</center>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/skoollive.jpg);">
-								<div class="desc">
-									<div class="con">
-										<center style="margin-top: 60px;">
-											<h3><font color="white">Survey Plugin - WordPress</font> <br> <small><font color="white">WordPress Plugin using WordPress REST API</font></small></h3>
-											<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#survey">More Info</button>
-										</center>
-
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/campaigns.jpg);">
-								<div class="desc">
-									<div class="con">
-										<center style="margin-top: 60px;">
-											<h3><font color="white">SMS and Email campaigns - WordPress</font> <br> <small><font color="white">WordPress Plugin that enable Email and SMS for campaigns</font></small></h3>
-											<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#campaigns">More Info</button>
-										</center>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- <div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div> -->
-				</div>
-			</section>
-
-			<!-- Modal -->
-			<div class="modal fade" id="servicenow" role="dialog">
-				<div class="modal-dialog">
-				
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">ServiceNow Incident Dashboard Application</h4>
-					</div>
-					<div class="modal-body">
-						<p align="center">Application for creating custom dashboards for ServiceNow tickets</p>
-						<p align="center"><strong>Languages used:</strong>
-						<img src="images/angular.png" alt="Image" height="30" width="30" title="Angular"/>&nbsp&nbsp
-						<img src="images/node.png" alt="Image" height="30" width="30" title="NodeJS"/>&nbsp&nbsp
-						<img src="images/express.png" alt="Image" height="30" width="30" title="ExpressJS"/>&nbsp&nbsp
-						<img src="images/html.png" alt="Image" height="30" width="30" title="Html"/>&nbsp&nbsp
-						<img src="images/css.png" alt="Image" height="30" width="30" title="CSS"/>&nbsp&nbsp
-						<img src="images/Swagger-logo.png" alt="Image" height="30" width="80" title="Swagger"/>&nbsp&nbsp
-						</p>
-						<p align="left"><strong>&nbsp&nbspMore Info:</strong></p>
-                        <ul>
-						  <li>Angular 8 used for application development</li>
-						  <li>Developed REST API using Express framework</li>
-						  <li>Angular Material used for UI components</li>
-                          <li>Chart.js used for Dashboard charts</li>
-                          <li>jQuery Data tables used for grid</li>
-                          <li>Based on the JWT token routes are protected</li>
-                          <li>Swagger used for API documentation</li>
-                        </ul>
-					</div>
-					<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-				
+				<div class="stats reveal">
+					<div class="stat"><div class="stat-value">12+</div><div class="stat-label">Years building software</div></div>
+					<div class="stat"><div class="stat-value">23</div><div class="stat-label">Licenses &amp; certifications</div></div>
+					<div class="stat"><div class="stat-value">6</div><div class="stat-label">Google Cloud skill badges</div></div>
+					<div class="stat"><div class="stat-value">60+</div><div class="stat-label">Technologies &amp; skills</div></div>
 				</div>
 			</div>
+		</section>
 
-
-			<!-- Modal -->
-			<div class="modal fade" id="admin_dashboard" role="dialog">
-					<div class="modal-dialog">
-					
-					<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-title">Admin Dashboard application for Network monitoring system</h4>
-						</div>
-						<div class="modal-body">
-							<p align="center">Developed Admin Dashboard and CRUD operation in Angular</p>
-							<p align="center"><strong>Languages used:</strong>
-							<img src="images/angular.png" alt="Image" height="30" width="30" title="Angular"/>&nbsp&nbsp
-							<img src="images/node.png" alt="Image" height="30" width="30" title="NodeJS"/>&nbsp&nbsp
-							<img src="images/express.png" alt="Image" height="30" width="30" title="ExpressJS"/>&nbsp&nbsp
-							<img src="images/html.png" alt="Image" height="30" width="30" title="Html"/>&nbsp&nbsp
-							<img src="images/css.png" alt="Image" height="30" width="30" title="CSS"/>&nbsp&nbsp
-							<img src="images/Swagger-logo.png" alt="Image" height="30" width="80" title="Swagger"/>&nbsp&nbsp
-							</p>
-							<p align="left"><strong>&nbsp&nbspMore Info:</strong></p>
-							<ul>
-								<li>Chart.js used for Dashboard charts</li>
-								<li>Angular Material used for Data table and CRUD forms</li>
-								<li>Based on the JWT token routes are protected</li>
-								<li>Express REST API used as backend for the Angular Application</li>
-								<li>Swagger used for API documentation</li>
-							</ul>
-						</div>
-						<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
+		<!-- About -->
+		<section class="section" id="about">
+			<div class="container about-grid">
+				<div class="about-text reveal">
+					<div class="section-head">
+						<span class="kicker">About</span>
+						<h2>Engineer first, architect by design.</h2>
 					</div>
-					
+					<p>I'm a <strong>Google Cloud certified Professional Cloud Architect</strong> and full stack developer. Since 2014 I've grown from freelance web developer to Module Lead and now <strong>System Analyst at Aspire Systems</strong>, where I work on-site in the United States.</p>
+					<p>My day-to-day spans the whole stack: <strong>Node.js, Express and hapi.js</strong> services, <strong>React and Angular</strong> front ends, and data in <strong>SQL Server, MySQL, MongoDB and Redis</strong>. On the platform side I design for scalability and security on <strong>Google Cloud</strong> — GKE, Cloud Run, Cloud Functions, IAM and secure networking — with <strong>Terraform, Ansible, Docker and Azure DevOps</strong> for delivery.</p>
+					<p>I care about software that is secure by default, with continued training in secure coding, OWASP Top 10 and secure software design.</p>
+				</div>
+				<div class="focus-list reveal">
+					<div class="focus-item">
+						<span class="focus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9z"/></svg></span>
+						<div><h3>Cloud Architecture</h3><p>Cloud-native design, migration and scalability on Google Cloud.</p></div>
+					</div>
+					<div class="focus-item">
+						<span class="focus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg></span>
+						<div><h3>Full Stack Development</h3><p>Node.js APIs with React, Angular and Electron clients.</p></div>
+					</div>
+					<div class="focus-item">
+						<span class="focus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+						<div><h3>Security &amp; Reliability</h3><p>IAM, secure networking, OWASP practices and end-to-end testing.</p></div>
+					</div>
+					<div class="focus-item">
+						<span class="focus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
+						<div><h3>DevOps &amp; Automation</h3><p>Infrastructure as code, containers and CI/CD pipelines.</p></div>
 					</div>
 				</div>
+			</div>
+		</section>
 
-
-				<!-- Modal -->
-			<div class="modal fade" id="skiosk" role="dialog">
-					<div class="modal-dialog">
-					
-					<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-title">Desktop Application for Windows using Electron</h4>
+		<!-- Skills -->
+		<section class="section section-alt" id="skills">
+			<div class="container">
+				<div class="section-head reveal">
+					<span class="kicker">Skills</span>
+					<h2>Technical toolkit</h2>
+					<p>A decade of hands-on work across the stack, now centered on cloud-native architecture.</p>
+				</div>
+				<div class="skills-grid">
+					<div class="skill-card reveal">
+						<h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9z"/></svg>Cloud &amp; Architecture</h3>
+						<div class="chips">
+							<span class="chip">Google Cloud (GCP)</span><span class="chip">Cloud-Native Architecture</span><span class="chip">Cloud Migration</span><span class="chip">Scalability</span><span class="chip">GKE</span><span class="chip">Cloud Run</span><span class="chip">Cloud Functions</span><span class="chip">Cloud Storage</span><span class="chip">Firebase</span><span class="chip">AWS EC2 &amp; S3</span><span class="chip">Azure</span>
 						</div>
-						<div class="modal-body">
-							<p align="center">Developed windows application using Electron for download and play WordPress site into local machine and play in Kiosk mode inorder to reduce the data usage</p>
-							<p align="center"><strong>Languages used:</strong>
-								<img src="images/electron.png" alt="Image" height="30" width="30" title="Electron"/>&nbsp&nbsp
-								<img src="images/node.png" alt="Image" height="30" width="30" title="NodeJS"/>&nbsp&nbsp
-								<img src="images/js.png" alt="Image" height="30" width="30" title="Javascript"/>&nbsp&nbsp
-								<img src="images/jquery.gif" alt="Image" height="30" width="30" title="jquery"/>&nbsp&nbsp
-								<img src="images/angular.png" alt="Image" height="30" width="30" title="AngularJS"/>&nbsp&nbsp
-								<img src="images/mongo.png" alt="Image" height="30" width="30" title="MongoDB"/>&nbsp&nbsp
-								<img src="images/html.png" alt="Image" height="30" width="30" title="Html"/>&nbsp&nbsp
-								<img src="images/css.png" alt="Image" height="30" width="30" title="CSS"/>&nbsp&nbsp
-								<img src="images/bootstrap.png" alt="Image" height="30" width="30" title="Bootstrap"/>&nbsp&nbsp
-								</p>
-					  
-								<p align="left"><strong>&nbsp&nbspFeatures implemented:</strong></p>
+					</div>
+					<div class="skill-card reveal">
+						<h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01M6 18h.01"/></svg>Backend &amp; APIs</h3>
+						<div class="chips">
+							<span class="chip">Node.js</span><span class="chip">Express.js</span><span class="chip">hapi.js</span><span class="chip">REST APIs</span><span class="chip">Swagger / OpenAPI</span><span class="chip">PHP</span><span class="chip">PHP Frameworks</span><span class="chip">Gemini on Google Cloud</span>
+						</div>
+					</div>
+					<div class="skill-card reveal">
+						<h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>Frontend &amp; Desktop</h3>
+						<div class="chips">
+							<span class="chip">React.js</span><span class="chip">Angular</span><span class="chip">Angular Material</span><span class="chip">AngularJS</span><span class="chip">TypeScript</span><span class="chip">JavaScript</span><span class="chip">HTML5</span><span class="chip">CSS</span><span class="chip">jQuery</span><span class="chip">Electron</span>
+						</div>
+					</div>
+					<div class="skill-card reveal">
+						<h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>Data</h3>
+						<div class="chips">
+							<span class="chip">Microsoft SQL Server</span><span class="chip">MySQL</span><span class="chip">MongoDB</span><span class="chip">Redis</span><span class="chip">NoSQL</span><span class="chip">Cassandra</span><span class="chip">phpMyAdmin</span>
+						</div>
+					</div>
+					<div class="skill-card reveal">
+						<h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/></svg>DevOps &amp; Tooling</h3>
+						<div class="chips">
+							<span class="chip">Terraform</span><span class="chip">Ansible</span><span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Azure DevOps</span><span class="chip">GitHub</span><span class="chip">CI/CD</span><span class="chip">Gulp</span>
+						</div>
+					</div>
+					<div class="skill-card reveal">
+						<h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>Security &amp; Quality</h3>
+						<div class="chips">
+							<span class="chip">Cloud Security</span><span class="chip">IAM</span><span class="chip">Secure Networking</span><span class="chip">Web Application Security</span><span class="chip">OWASP Top 10</span><span class="chip">Secure SDLC</span><span class="chip">End-to-End Testing (Jest)</span><span class="chip">WordPress &amp; OpenCart</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Certifications -->
+		<section class="section" id="certifications">
+			<div class="container">
+				<div class="section-head reveal">
+					<span class="kicker">Certifications</span>
+					<h2>Licenses &amp; certifications</h2>
+					<p>23 credentials across Google Cloud, secure software development and full stack engineering.</p>
+				</div>
+
+				<div class="cert-feature reveal">
+					<div class="cert-feature-icon">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#EA4335" d="M15.5 7.3l1.3-1.3.1-.6A8.9 8.9 0 0 0 3.1 9.7l.4-.1 2.6-.4.2-.2a5.4 5.4 0 0 1 7.4-1.7z"/><path fill="#4285F4" d="M20.8 9.7a8.9 8.9 0 0 0-2.7-4.3l-2.6 2.6a4.7 4.7 0 0 1 1.7 3.7v.5a2.3 2.3 0 1 1 0 4.7h-4.7l-.5.5v2.8l.5.5h4.7a6 6 0 0 0 3.6-11z"/><path fill="#34A853" d="M7.4 21h4.7v-3.8H7.4a2.3 2.3 0 0 1-1-.2l-.6.2-1.9 1.9-.2.6A6 6 0 0 0 7.4 21z"/><path fill="#FBBC05" d="M7.4 8.9a6 6 0 0 0-3.7 10.8l2.7-2.7a2.3 2.3 0 1 1 3.1-3.1L12.2 11a6 6 0 0 0-4.8-2.1z"/></svg>
+					</div>
+					<div>
+						<span class="kicker">Featured</span>
+						<h3>Professional Cloud Architect</h3>
+						<p>Google Cloud · Issued Sep 2026 · Valid through Sep 2028</p>
+						<div class="chips">
+							<span class="chip">Cloud Architecture</span><span class="chip">Cloud Security</span><span class="chip">Cloud Storage</span><span class="chip">Networking</span><span class="chip">IAM</span><span class="chip">Scalability</span><span class="chip">Cloud Migration</span>
+						</div>
+					</div>
+					<a class="btn btn-ghost" href="https://www.linkedin.com/in/sankara-narayanan-paramasivam-00a00a11a/details/certifications/" target="_blank" rel="noopener">View credentials</a>
+				</div>
+
+				<div class="cert-groups">
+					<div class="cert-group reveal">
+						<h3>Google Cloud Skill Badges <span class="count">6</span></h3>
+						<ul class="cert-list">
+							<li><span>Implement Cloud Security Fundamentals on Google Cloud</span><time>Sep 2026</time></li>
+							<li><span>Build a Secure Google Cloud Network</span><time>Sep 2026</time></li>
+							<li><span>Manage Kubernetes in Google Cloud</span><time>Sep 2026</time></li>
+							<li><span>Implement Load Balancing on Compute Engine</span><time>Aug 2026</time></li>
+							<li><span>Deploy Kubernetes Applications on Google Cloud</span><time>Sep 2024</time></li>
+							<li><span>Develop Serverless Applications on Cloud Run</span><time>Sep 2024</time></li>
+						</ul>
+					</div>
+					<div class="cert-group reveal">
+						<h3>Security, Testing &amp; Development <span class="count">7</span></h3>
+						<ul class="cert-list">
+							<li><span>CSSLP Cert Prep: Secure Software Concepts<span class="issuer">LinkedIn Learning</span></span><time>Dec 2023</time></li>
+							<li><span>Programming Foundations: Secure Coding<span class="issuer">LinkedIn Learning</span></span><time>Dec 2023</time></li>
+							<li><span>Learning the OWASP Top 10<span class="issuer">LinkedIn Learning</span></span><time>Dec 2022</time></li>
+							<li><span>Programming Foundations: Web Security<span class="issuer">LinkedIn Learning</span></span><time>Dec 2022</time></li>
+							<li><span>Developing Secure Software<span class="issuer">LinkedIn Learning</span></span><time>Dec 2022</time></li>
+							<li><span>Learning End-to-End Testing with Jest<span class="issuer">LinkedIn Learning</span></span><time>Jul 2022</time></li>
+							<li><span>Angular &amp; Node.js MEAN Stack<span class="issuer">Udemy</span></span><time></time></li>
+						</ul>
+					</div>
+					<div class="cert-group cert-group-wide reveal">
+						<h3>Google Cloud Training <span class="count">9</span></h3>
+						<ul class="cert-list">
+							<li><span>Deploy Kubernetes Applications on Google Cloud</span><time>Sep 2024</time></li>
+							<li><span>Develop Serverless Apps with Firebase</span><time>Sep 2024</time></li>
+							<li><span>Integrating Applications with Gemini 1.0 Pro on Google Cloud</span><time>Sep 2024</time></li>
+							<li><span>Developing Applications with Cloud Run: Fundamentals</span><time>Aug 2024</time></li>
+							<li><span>Developing Containerized Applications on Google Cloud</span><time>Aug 2024</time></li>
+							<li><span>Developing Applications with Cloud Functions</span><time>Aug 2024</time></li>
+							<li><span>Service Orchestration and Choreography on Google Cloud</span><time>Aug 2024</time></li>
+							<li><span>Developing Applications with Google Cloud: Foundations</span><time>Aug 2024</time></li>
+							<li><span>Google Cloud Fundamentals: Core Infrastructure</span><time>Aug 2024</time></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Experience -->
+		<section class="section section-alt" id="experience">
+			<div class="container">
+				<div class="section-head reveal">
+					<span class="kicker">Experience</span>
+					<h2>Where I've worked</h2>
+				</div>
+				<div class="timeline">
+					<article class="role is-current reveal">
+						<span class="role-dot" aria-hidden="true"></span>
+						<div class="role-card">
+							<div class="role-head">
+								<h3>Aspire Systems</h3>
+								<span class="role-dates">May 2020 — Present</span>
+							</div>
+							<div class="role-sub">Full-time · 6+ years</div>
+							<div class="role-steps">
+								<div class="role-step">
+									<span><strong>System Analyst</strong><span class="tag-current">Current</span><br><span class="role-sub">United States · On-site</span></span>
+									<span class="role-dates">Mar 2023 — Present</span>
+								</div>
+								<div class="role-step">
+									<span><strong>Module Lead</strong><br><span class="role-sub">Chennai, India</span></span>
+									<span class="role-dates">May 2020 — Mar 2023</span>
+								</div>
+							</div>
+						</div>
+					</article>
+					<article class="role reveal">
+						<span class="role-dot" aria-hidden="true"></span>
+						<div class="role-card">
+							<div class="role-head">
+								<h3>Sr. Analyst — Projects <span class="role-company">· Excelacom Technologies</span></h3>
+								<span class="role-dates">Sep 2017 — Apr 2020</span>
+							</div>
+							<div class="role-sub">Chennai, India · Full-time</div>
+						</div>
+					</article>
+					<article class="role reveal">
+						<span class="role-dot" aria-hidden="true"></span>
+						<div class="role-card">
+							<div class="role-head">
+								<h3>Software Developer <span class="role-company">· Encore Software Services</span></h3>
+								<span class="role-dates">Sep 2015 — Sep 2017</span>
+							</div>
+							<div class="role-sub">Chennai, India</div>
+						</div>
+					</article>
+					<article class="role reveal">
+						<span class="role-dot" aria-hidden="true"></span>
+						<div class="role-card">
+							<div class="role-head">
+								<h3>Web Developer <span class="role-company">· Freelance</span></h3>
+								<span class="role-dates">Jan 2014 — Sep 2015</span>
+							</div>
+							<div class="role-sub">Chennai, India · Web development for local clients</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section class="section" id="projects">
+			<div class="container">
+				<div class="section-head reveal">
+					<span class="kicker">Projects</span>
+					<h2>Selected work</h2>
+					<p>Dashboards, APIs, desktop apps and WordPress platforms delivered for clients.</p>
+				</div>
+				<div class="projects-grid">
+					<article class="project reveal">
+						<div class="project-media"><img src="images/servicenow.png" alt="ServiceNow dashboard application" loading="lazy"></div>
+						<div class="project-body">
+							<h3>ServiceNow Incident Dashboard</h3>
+							<p>Custom dashboards for ServiceNow tickets, backed by a secured REST API.</p>
+							<div class="chips"><span class="chip">Angular</span><span class="chip">Express</span><span class="chip">Node.js</span><span class="chip">Swagger</span></div>
+							<details>
+								<summary>Highlights <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
 								<ul>
-								  <li>Automatic application update using Electron updater</li>
-								  <li>Get Html files from WordPress site using wget module</li>
-								  <li>Download contents from S3 using Electron download manager</li>
-								  <li>Sync files from S3 bucket to local using AWS CLI</li></br>
+									<li>Angular application with Angular Material UI components</li>
+									<li>REST API built on Express, documented with Swagger</li>
+									<li>Chart.js dashboards and data-table grids</li>
+									<li>JWT-protected routes</li>
 								</ul>
+							</details>
 						</div>
-						<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</article>
+					<article class="project reveal">
+						<div class="project-media"><img src="images/admin-dashboard.jpg" alt="Admin dashboard" loading="lazy"></div>
+						<div class="project-body">
+							<h3>Network Monitoring Admin Dashboard</h3>
+							<p>Admin dashboard and CRUD workflows for a network monitoring system.</p>
+							<div class="chips"><span class="chip">Angular</span><span class="chip">Express</span><span class="chip">Chart.js</span><span class="chip">JWT</span></div>
+							<details>
+								<summary>Highlights <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+								<ul>
+									<li>Angular Material data tables and CRUD forms</li>
+									<li>Express REST API backend with Swagger docs</li>
+									<li>Chart.js dashboards</li>
+									<li>Token-based route protection</li>
+								</ul>
+							</details>
 						</div>
-					</div>
-					
-					</div>
-				</div>
-
-
-			<!-- Modal -->
-			<div class="modal fade" id="skoollive" role="dialog">
-				<div class="modal-dialog">
-				
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">School Content Managment Portal - WordPress</h4>
-					</div>
-					<div class="modal-body">
-						<p align="center">WordPress multisite plugin for School content management Work Flow</p>
-						<p align="center"><strong>Languages used:</strong>
-						<img src="images/wordpress.png" alt="Image" height="30" width="30" title="WordPress"/>&nbsp&nbsp
-						<img src="images/underscores.jpg" alt="Image" height="30" width="60" title="Underscore Starter Theme"/>&nbsp&nbsp
-						<img src="images/php.png" alt="Image" height="30" width="30" title="PHP"/>&nbsp&nbsp
-						<img src="images/js.png" alt="Image" height="30" width="30" title="Javascript"/>&nbsp&nbsp
-						<img src="images/jquery.gif" alt="Image" height="30" width="30" title="jquery"/>&nbsp&nbsp
-						<img src="images/html.png" alt="Image" height="30" width="30" title="HTML"/>&nbsp&nbsp
-						<img src="images/css.png" alt="Image" height="30" width="30" title="CSS"/>&nbsp&nbsp
-						<img src="images/bootstrap.png" alt="Image" height="30" width="30" title="Bootstrap"/>&nbsp&nbsp
-						
-						</p>
-						<p align="center"><strong>Url:</strong><a href="https://skoollive.net/elmonte-12-hs" target="_blank">  https://skoollive.net/elmonte-12-hs</a></p>
-						<p align="left"><strong>&nbsp&nbspFeatures implemented:</strong></p>
-						<ul>
-							<li>Custom login and custom admin panel for school admin users</li>
-							<li>Upload contents from school admin page and approval from network admin</li>
-							<li>Email alerts for pending for approval contents</li>
-							<li>Custom POST type for showing school memes</li>
-							</br>
-						</ul>
-					</div>
-					<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-				
-				</div>
-			</div>
-
-
-
-			<!-- Modal -->
-			<div class="modal fade" id="survey" role="dialog">
-				<div class="modal-dialog">
-				
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Survey Plugin - WordPress REST API</h4>
-					</div>
-					<div class="modal-body">
-						<p align="center">Developed WordPress plugin for showing survey question on WordPress site. Created API end-points using WordPress REST API and developed reporting system in WordPress admin panel</p>
-						<p align="center"><strong>Url:</strong><a href="http://skoollive.net/public_html/wp-content/banners/MonsterPop_V3.0/Monster_Pop.html" target="_blank">   MonsterPOP Survey</a></p>
-						<p align="center"><strong>Languages used:</strong>
-						<img src="images/wordpress.png" alt="Image" height="30" width="30" title="WordPress"/>&nbsp&nbsp
-						<img src="images/underscores.jpg" alt="Image" height="30" width="60" title="Underscore Starter Theme"/>&nbsp&nbsp
-						<img src="images/php.png" alt="Image" height="30" width="30" title="PHP"/>&nbsp&nbsp
-						<img src="images/js.png" alt="Image" height="30" width="30" title="Javascript"/>&nbsp&nbsp
-						<img src="images/jquery.gif" alt="Image" height="30" width="30" title="jquery"/>&nbsp&nbsp
-						<img src="images/html.png" alt="Image" height="30" width="30" title="HTML"/>&nbsp&nbsp
-						<img src="images/css.png" alt="Image" height="30" width="30" title="CSS"/>&nbsp&nbsp
-						<img src="images/bootstrap.png" alt="Image" height="30" width="30" title="Bootstrap"/>&nbsp&nbsp
-						</p>
-						
-						<p align="left"><strong>&nbsp&nbspFeatures implemented:</strong></p>
-						<ul>
-						<li>Custom API end-points for GET and POST the questions and answers</li>
-						<li>Can be used in any website using ajax calls</li>
-						<li>Detailed reporting system with excel export</li>
-						<li>Dynamic question and answers creation using API response</li>
-						
-						</ul>
-					</div>
-					<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-				
+					</article>
+					<article class="project reveal">
+						<div class="project-media"><img src="images/desktop.jpg" alt="sKiosk desktop application" loading="lazy"></div>
+						<div class="project-body">
+							<h3>sKiosk Desktop App</h3>
+							<p>Windows kiosk app that syncs WordPress content locally to cut data usage.</p>
+							<div class="chips"><span class="chip">Electron</span><span class="chip">Node.js</span><span class="chip">AWS S3</span><span class="chip">MongoDB</span></div>
+							<details>
+								<summary>Highlights <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+								<ul>
+									<li>Automatic updates via Electron updater</li>
+									<li>Offline mirroring of WordPress sites</li>
+									<li>Content sync from S3 using the AWS CLI and a download manager</li>
+								</ul>
+							</details>
+						</div>
+					</article>
+					<article class="project reveal">
+						<div class="project-media"><img src="images/skoollive_logo.jpg" alt="School content management portal" loading="lazy"></div>
+						<div class="project-body">
+							<h3>School Content Management Portal</h3>
+							<p>WordPress multisite plugin powering a school content approval workflow.</p>
+							<div class="chips"><span class="chip">WordPress</span><span class="chip">PHP</span><span class="chip">jQuery</span><span class="chip">Bootstrap</span></div>
+							<details>
+								<summary>Highlights <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+								<ul>
+									<li>Custom login and admin panel for school admins</li>
+									<li>Upload-and-approve flow with network admin review</li>
+									<li>Email alerts for pending approvals</li>
+									<li>Custom post types for school content</li>
+								</ul>
+							</details>
+						</div>
+					</article>
+					<article class="project reveal">
+						<div class="project-media"><img src="images/skoollive.jpg" alt="Survey plugin" loading="lazy"></div>
+						<div class="project-body">
+							<h3>Survey Platform Plugin</h3>
+							<p>Embeddable survey engine built on the WordPress REST API with reporting.</p>
+							<div class="chips"><span class="chip">WordPress REST API</span><span class="chip">PHP</span><span class="chip">AJAX</span></div>
+							<details>
+								<summary>Highlights <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+								<ul>
+									<li>Custom endpoints for questions and answers</li>
+									<li>Embeddable on any site via AJAX</li>
+									<li>Dynamic question rendering from API responses</li>
+									<li>Admin reporting with Excel export</li>
+								</ul>
+							</details>
+						</div>
+					</article>
+					<article class="project reveal">
+						<div class="project-media"><img src="images/campaigns.jpg" alt="SMS and email campaigns" loading="lazy"></div>
+						<div class="project-body">
+							<h3>SMS &amp; Email Campaigns</h3>
+							<p>Plugin that triggers SMS and HTML email campaigns from kiosk entries.</p>
+							<div class="chips"><span class="chip">WordPress</span><span class="chip">Twilio</span><span class="chip">PHP</span></div>
+							<details>
+								<summary>Highlights <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></summary>
+								<ul>
+									<li>Twilio API integration for SMS</li>
+									<li>Custom HTML email campaigns</li>
+									<li>Reporting with Excel export</li>
+								</ul>
+							</details>
+						</div>
+					</article>
 				</div>
 			</div>
+		</section>
 
-
-
-			<!-- Modal -->
-			<div class="modal fade" id="campaigns" role="dialog">
-					<div class="modal-dialog">
-					
-					<!-- Modal content-->
-					<div class="modal-content">
-						<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-title">SMS and Email Campaign - WordPress</h4>
-						</div>
-						<div class="modal-body">
-							<p align="center">Developed WordPress plugin triggering SMS using Twillio and Email using WordPress for campaign entries from the kiosk machines.</p>
-							<p align="center"><strong>Languages used:</strong>
-							<img src="images/wordpress.png" alt="Image" height="30" width="30" title="WordPress"/>&nbsp&nbsp
-							<img src="images/underscores.jpg" alt="Image" height="30" width="60" title="Underscore Starter Theme"/>&nbsp&nbsp
-							<img src="images/php.png" alt="Image" height="30" width="30" title="PHP"/>&nbsp&nbsp
-							<img src="images/js.png" alt="Image" height="30" width="30" title="Javascript"/>&nbsp&nbsp
-							<img src="images/jquery.gif" alt="Image" height="30" width="30" title="jquery"/>&nbsp&nbsp
-							<img src="images/html.png" alt="Image" height="30" width="30" title="HTML"/>&nbsp&nbsp
-							<img src="images/css.png" alt="Image" height="30" width="30" title="CSS"/>&nbsp&nbsp
-							<img src="images/bootstrap.png" alt="Image" height="30" width="30" title="Bootstrap"/>&nbsp&nbsp
-							</p>
-							
-							<p align="left"><strong>&nbsp&nbspFeatures implemented:</strong></p>
-							<ul>
-							<li>Twillio API integration for SMS</li>
-							<li>Email custom html campaigns to given email address</li>
-							<li>Detailed reporting system with excel export</li>
-							
-							</ul>
-						</div>
-						<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-					
+		<!-- Education -->
+		<section class="section section-alt" id="education">
+			<div class="container">
+				<div class="section-head reveal">
+					<span class="kicker">Education</span>
+					<h2>Education</h2>
+				</div>
+				<div class="edu-card reveal">
+					<span class="focus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+					<div>
+						<h3>B.Tech, Information Technology</h3>
+						<p>Anjalai Ammal Mahalingam Engineering College · Anna University · 2007 – 2011</p>
 					</div>
 				</div>
+			</div>
+		</section>
 
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="#">sankaranarayanan097@gmail.com</a></p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>1/85, KSS Street, Kelambakkam, Chennai - 603103</p>
-								</div>
-							</div>
-
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="tel://">9789820328</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-										<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=kss%20street%20kelambakkam&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-								</div>
-								
-							</div>
-						</div>
+		<!-- Contact -->
+		<section class="section" id="contact">
+			<div class="container">
+				<div class="contact-card reveal">
+					<span class="kicker">Contact</span>
+					<h2>Let's build something reliable.</h2>
+					<p>Open to conversations about cloud architecture, full stack engineering and modernization projects.</p>
+					<div class="hero-cta">
+						<a class="btn btn-primary" href="mailto:sankaranarayanan097@gmail.com">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+							sankaranarayanan097@gmail.com
+						</a>
+						<a class="btn btn-ghost" href="https://www.linkedin.com/in/sankara-narayanan-paramasivam-00a00a11a/" target="_blank" rel="noopener">
+							<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+							LinkedIn
+						</a>
+						<a class="btn btn-ghost" href="https://github.com/sankar-dev" target="_blank" rel="noopener">
+							<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.1.9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"/></svg>
+							GitHub
+						</a>
 					</div>
 				</div>
-			</section>
+			</div>
+		</section>
+	</main>
 
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
+	<footer class="footer">
+		<div class="container footer-inner">
+			<span>&copy; <span id="year">2026</span> Sankara Narayanan Paramasivam</span>
+			<span>Louisville, KY · <a href="#top">Back to top ↑</a></span>
+		</div>
+	</footer>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+	<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+	<script src="js/site.js"></script>
+</body>
 </html>
-
