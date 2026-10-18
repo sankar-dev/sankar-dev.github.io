@@ -479,9 +479,11 @@ a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 	.portrait { order: -1; width: 168px; height: 168px; margin: 0 auto; }
 	.portrait img { border-radius: 50%; border-width: 3px; }
 	.portrait-badge {
-		left: 50%; bottom: -22px; transform: translateX(-50%);
-		white-space: nowrap; padding: 6px 12px 6px 8px; text-align: left;
+		left: 50%; right: auto; bottom: -22px; transform: translateX(-50%);
+		width: -webkit-max-content; width: max-content; max-width: calc(100vw - 32px);
+		white-space: nowrap; padding: 6px 14px 6px 8px; text-align: left;
 	}
+	.portrait-badge > div { flex: none; }
 	a.portrait-badge:hover { transform: translateX(-50%) translateY(-2px); }
 	.portrait-badge img { width: 32px; height: 32px; }
 	.hero .eyebrow { display: none; }
