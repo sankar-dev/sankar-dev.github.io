@@ -290,8 +290,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 		linear-gradient(120deg, var(--accent), var(--accent-2)) border-box;
 	border: 1.5px solid transparent; box-shadow: var(--shadow-lg);
 }
-.cert-feature-icon { width: 72px; height: 72px; border-radius: 18px; display: grid; place-items: center; background: var(--accent-soft); }
-.cert-feature-icon svg { width: 40px; height: 40px; }
+.cert-badge { width: 140px; height: 140px; filter: drop-shadow(0 8px 18px rgba(15, 23, 42, 0.15)); }
+.portrait-badge img { width: 40px; height: 40px; flex: none; }
 .cert-feature h3 { font-size: 1.35rem; font-weight: 750; }
 .cert-feature p { margin: 6px 0 0; color: var(--text-muted); font-size: 14.5px; }
 .cert-feature .chips { margin-top: 12px; }
@@ -456,6 +456,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 	.role-dot { left: 2px; }
 	.role-card { padding: 18px; }
 	.cert-feature { padding: 22px; }
+	.cert-badge { width: 110px; height: 110px; }
 	.contact-card { padding: 44px 20px; }
 	.btn { width: 100%; justify-content: center; }
 	.hero-cta { flex-direction: column; }
