@@ -217,6 +217,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 	background: var(--bg-elev); border: 1px solid var(--border); box-shadow: var(--shadow);
 	padding: 10px 14px; border-radius: 12px; font-size: 13px; line-height: 1.3;
 }
+a.portrait-badge { color: var(--text); transition: transform .15s ease, border-color .15s; }
+a.portrait-badge:hover { color: var(--text); transform: translateY(-2px); border-color: var(--accent); }
 .portrait-badge strong { display: block; font-size: 13.5px; }
 .portrait-badge small { color: var(--text-faint); }
 
@@ -290,7 +292,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 		linear-gradient(120deg, var(--accent), var(--accent-2)) border-box;
 	border: 1.5px solid transparent; box-shadow: var(--shadow-lg);
 }
-.cert-badge { width: 140px; height: 140px; filter: drop-shadow(0 8px 18px rgba(15, 23, 42, 0.15)); }
+.cert-badge { width: 140px; height: 140px; filter: drop-shadow(0 8px 18px rgba(15, 23, 42, 0.15)); transition: transform .2s ease; }
+a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 .portrait-badge img { width: 40px; height: 40px; flex: none; }
 .cert-feature h3 { font-size: 1.35rem; font-weight: 750; }
 .cert-feature p { margin: 6px 0 0; color: var(--text-muted); font-size: 14.5px; }
