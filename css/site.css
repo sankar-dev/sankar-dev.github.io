@@ -392,6 +392,13 @@ a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 .project-featured .tag-current { margin: 0 0 10px; align-self: flex-start; }
 .project-featured h3 { font-size: 1.3rem; }
 .project-featured .project-body > p { font-size: 15.5px; max-width: 620px; }
+.project-highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; margin: 0 0 18px; }
+.project-highlights li { position: relative; padding-left: 22px; font-size: 14.5px; color: var(--text-muted); line-height: 1.5; }
+.project-highlights li::before {
+	content: ""; position: absolute; left: 0; top: 4px; width: 14px; height: 14px; border-radius: 50%;
+	background: var(--accent-soft) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232563eb' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 12l4 4 8-8'/%3E%3C/svg%3E") center / 10px no-repeat;
+}
+.project-highlights strong { color: var(--text); font-weight: 600; }
 
 .role-step .role-note { flex-basis: 100%; margin: 6px 0 0; font-size: 14px; color: var(--text-muted); }
 
@@ -496,6 +503,7 @@ a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 	.project-featured { flex-direction: column; }
 	.project-featured .project-media { width: 100%; aspect-ratio: 16 / 7; border-right: 0; border-bottom: 1px solid var(--border); }
 	.project-featured .project-body { padding: 20px; }
+	.project-highlights { grid-template-columns: 1fr; }
 	.contact-card { padding: 44px 20px; }
 	.btn { width: 100%; justify-content: center; }
 	.hero-cta { flex-direction: column; }
