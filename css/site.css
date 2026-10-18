@@ -461,10 +461,19 @@ a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 	.nav-links a { padding: 12px; }
 
 	.hero { padding: 56px 0 48px; }
-	.hero-grid { grid-template-columns: 1fr; gap: 36px; }
-	.portrait { order: -1; width: 140px; height: 140px; }
-	.portrait img { border-radius: 22px; }
-	.portrait-badge { display: none; }
+	.hero-grid { grid-template-columns: 1fr; gap: 44px; text-align: center; }
+	.portrait { order: -1; width: 168px; height: 168px; margin: 0 auto; }
+	.portrait img { border-radius: 50%; border-width: 3px; }
+	.portrait-badge {
+		left: 50%; bottom: -22px; transform: translateX(-50%);
+		white-space: nowrap; padding: 6px 12px 6px 8px; text-align: left;
+	}
+	a.portrait-badge:hover { transform: translateX(-50%) translateY(-2px); }
+	.portrait-badge img { width: 32px; height: 32px; }
+	.hero .eyebrow { display: none; }
+	.hero h1 { margin-top: 0; }
+	.hero-lead { margin-left: auto; margin-right: auto; }
+	.hero-cta, .hero-meta { justify-content: center; }
 
 	.cert-groups { grid-template-columns: 1fr; }
 	.cert-group-wide .cert-list { grid-template-columns: 1fr; }
