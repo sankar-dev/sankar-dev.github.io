@@ -377,6 +377,11 @@ a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 	display: grid; place-items: center; color: #fff;
 	background: linear-gradient(135deg, var(--accent), var(--accent-2));
 }
+.project-media-icon > svg { width: 64px; height: 64px; filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.2)); }
+.project-media-aws { background: linear-gradient(135deg, #f59e0b, #ea580c); }
+.project-media-lending { background: linear-gradient(135deg, #059669, #0d9488); }
+.project-media-campus { background: linear-gradient(135deg, #7c3aed, #db2777); }
+.project-meta { margin: 4px 0 0 !important; font-family: var(--font-mono); font-size: 12.5px !important; color: var(--text-faint) !important; }
 .transfer-art { display: flex; align-items: center; gap: 10px; }
 .transfer-tile {
 	display: grid; place-items: center; width: 76px; height: 76px; border-radius: 20px;
@@ -401,6 +406,7 @@ a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 .project-highlights strong { color: var(--text); font-weight: 600; }
 
 .role-step .role-note { flex-basis: 100%; margin: 6px 0 0; font-size: 14px; color: var(--text-muted); }
+.role-text { margin: 8px 0 0; font-size: 14px; color: var(--text-muted); }
 
 /* ---------- Education ---------- */
 
