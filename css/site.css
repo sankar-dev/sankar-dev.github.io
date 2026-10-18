@@ -193,7 +193,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 	color: var(--text-muted); background: var(--bg-elev);
 	border: 1px solid var(--border); padding: 6px 12px; border-radius: 999px;
 }
-.status-dot { width: 8px; height: 8px; border-radius: 50%; background: #22c55e; box-shadow: 0 0 0 3px rgba(34, 197, 94, .18); }
+.status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
 
 .hero h1 { font-size: clamp(2.4rem, 5.4vw, 4rem); font-weight: 800; margin: 22px 0 16px; letter-spacing: -0.035em; }
 .hero h1 .grad {
@@ -454,6 +454,11 @@ a:hover > .cert-badge { transform: scale(1.04) rotate(-3deg); }
 	.stats { grid-template-columns: repeat(2, 1fr); }
 	.stat:nth-child(3) { border-left: 0; }
 	.stat:nth-child(n+3) { border-top: 1px solid var(--border); }
+}
+
+@media (min-width: 861px) and (max-width: 1060px) {
+	.brand > span:last-child { display: none; }
+	.nav-links a { padding: 8px 9px; }
 }
 
 @media (max-width: 860px) {
